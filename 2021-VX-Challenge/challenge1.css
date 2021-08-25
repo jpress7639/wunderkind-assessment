@@ -1,3 +1,68 @@
-div.bx-curtain{
-    background-color: gold;
+/* Overall */
+
+div.bx-type{
+    display: flex;
+}
+
+div.bx-type > div.bx-creative{
+    background-color: #FFC216;
+    padding-bottom: 10%;
+    position: relative;
+}
+
+div.bx-creative-top > img.client-logo{
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bxc .bx-close-circle::before{
+    content: url(https://res.cloudinary.com/dkhiieq9p/image/upload/c_scale,w_66/v1629909196/Screen_Shot_2021-08-25_at_12.32.54_PM_w9coob.png);
+    position: absolute;
+    padding: 25%;
+    right: 10%;
+    top: 15%;
+}
+
+/* .bxc .bx-close-circle::after{
+    box-shadow: 10px 10px 10px black;
+} */
+
+/* Text */
+
+div.bx-row-headline{
+    display: flex;
+    justify-content: center;
+}
+
+div.bx-row-subheadline > p, div.bx-row-headline > p{
+    color: #000066;
+}
+
+div.bx-row-headline > p{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+div.bx-row-headline > p.bx-row-headline-2{
+    font-size: 60px;
+}
+
+/* Group 2 - input section */
+
+div.bx-group-2{
+    padding: 0% 20%;
+}
+
+div.bx-group-2 > div.bx-row-email > input{
+    text-align: center;
+    box-shadow: 1px 1px 5px rgb(48, 43, 26);
+}
+
+div.bx-group-2 > div.bx-row-submit > input#submit{
+    background: linear-gradient(#2654A1, #000066);
+    box-shadow: 1px 1px 5px rgb(48, 43, 26);
+    font-size: 25px;
+    height: 70px;
 }
