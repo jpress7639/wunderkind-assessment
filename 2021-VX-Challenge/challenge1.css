@@ -7,27 +7,26 @@ div.bx-type{
 div.bx-type > div.bx-creative{
     background-color: #FFC216;
     padding-bottom: 10%;
-    position: relative;
 }
+
 
 div.bx-creative-top > img.client-logo{
     margin: 0 auto;
     height: 80px;
-    display: flex;
-    justify-content: flex-start;
+    position: relative;
 }
 
 .bxc .bx-close-circle::before{
-    content: url(https://res.cloudinary.com/dkhiieq9p/image/upload/c_scale,w_66/v1629909196/Screen_Shot_2021-08-25_at_12.32.54_PM_w9coob.png);
+    content: url(https://res.cloudinary.com/dkhiieq9p/image/upload/c_scale,w_64/a_315/v1629909196/Screen_Shot_2021-08-25_at_12.32.54_PM_w9coob.png);
     position: absolute;
-    padding: 25%;
-    right: 10%;
-    top: 15%;
+    padding: 10%;
+    height: 92px;
+    width: 220px;
+    right: -95px;
+    top: -20px;
+    transform: rotate(45deg);
+    box-shadow: 0.5px 1px 12px black;
 }
-
-/* .bxc .bx-close-circle::after{
-    box-shadow: 10px 10px 10px black;
-} */
 
 /* Text */
 
