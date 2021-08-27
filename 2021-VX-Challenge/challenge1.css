@@ -74,15 +74,25 @@ div.bx-group-2 > div.bx-row-email > input{
     box-shadow: 1px 1px 5px rgb(48, 43, 26);
 }
 
-/* div.bx-group-2 > div.bx-row-submit::before{
+div.bx-group-2 > div.bx-row-submit::before{
+    position: absolute;
     content: "\2192";
+    font-size: 60px;
+    height: 70px;
     color: white;
-    border-right: solid 1px white;
+    border-right: 2px solid ;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      #2654A1, 
+      white
+    ) 1 100%;
     z-index: 50;
 
-} */
+}
 
 div.bx-group-2 > div.bx-row-submit > input#submit{
+    position: relative;
     background: linear-gradient(#2654A1, #000066);
     box-shadow: 1px 1px 5px rgb(48, 43, 26);
     font-size: 25px;
