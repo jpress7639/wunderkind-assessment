@@ -62,10 +62,11 @@ function overlayAd() {
     cartButton.setAttribute('href', 'https://www.kohls.com/checkout/shopping_cart.jsp')
     cartButton.className = "add-to-bag-btn"
     cartButton.innerText = 'Add To Cart'
+    cartButton.style.color = 'white'
+    cartButton.style.textDecoration = 'none'
     cartButton.style.width = '200px'
     cartButton.style.height = '50px'
     cartButton.style.backgroundColor = 'darkgrey'
-    cartButton.style.color = 'white'
     cartButton.style.border = 'none'
     cartButton.style.fontSize = "20px"
     cartButton.style.textAlign = 'center'
